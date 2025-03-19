@@ -40,3 +40,97 @@
 .read-the-docs {
   color: #888;
 }
+
+.app-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.error {
+  color: red;
+  padding: 10px;
+  border: 1px solid red;
+  border-radius: 4px;
+  background-color: #ffebee;
+  margin-bottom: 20px;
+}
+
+.update-form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f8f8f8;
+  text-align: left;
+}
+
+.current-item {
+  padding: 15px;
+  background-color: #e3f2fd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.update-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.form-group label {
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.success-message {
+  padding: 10px;
+  background-color: #e7f9e7;
+  color: #2e7d32;
+  border: 1px solid #2e7d32;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.error-message {
+  padding: 10px;
+  background-color: #ffebee;
+  color: #c62828;
+  border: 1px solid #c62828;
+  border-radius: 4px;
+  margin-top: 10px;
+}
